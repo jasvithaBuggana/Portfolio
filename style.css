@@ -1,6 +1,6 @@
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     margin: 0;
   }
 .body_section{
@@ -13,13 +13,6 @@ p{
 
   a{
     text-decoration: none;
-  }
-
-  @font-face{
-    font-family: "Times New Roman";
-    src:local('Lovely Home'), 
-    url("Image/LovelyHome-9aBZ.ttf") format('truetype');
-
   }
 
 .brand-name ,.navbar-light .navbar-brand{
