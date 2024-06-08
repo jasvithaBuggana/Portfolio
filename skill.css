@@ -43,10 +43,9 @@ body{
     background-color: #ffffff;
   }
 
- .row:not(:first-child) {
-    margin-top: 30px; /* Add space between the first and second rows */
+ .row:nth-child(n+2) {
+    margin-top: 20px; /* Add space between the second and third rows */
 }
-
 
   .Section1{
     padding: 4% 0 3%;
