@@ -48,7 +48,7 @@ body{
 }
 
 .row:not(:first-child) {
-    margin-top: 0; /* Remove space between the first and second rows */
+    margin-top: 2; /* Remove space between the first and second rows */
 }
 
   .Section1{
