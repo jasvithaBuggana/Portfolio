@@ -15,15 +15,15 @@ body{
       /* font-family: "Brush Script MT"; */
       /* margin-bottom: 3px; */
       font-family: "Times New Roman";
-      font-size: 80px;
+      font-size: 70px;
       font-weight: bold;
       color: #351458;
   }
 
   @media only screen and (max-width : 764px){
       .brand-name ,.navbar-light .navbar-brand{
-      font-family: "Lovely Home";
-      font-size: 40px;
+      font-family: "Times New Roman";
+      font-size: 50px;
       font-weight: bold;
       color: #351458;
   }
