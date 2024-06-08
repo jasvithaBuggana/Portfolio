@@ -63,7 +63,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Certifications</title>
     <style>
-        .card {
+        card {
             height: 100%; /* Ensure all cards have the same height */
         }
         .card-img-top {
@@ -73,11 +73,8 @@
         .certificate-text {
             font-size: 18px; /* Increase the text size */
         }
-        .row {
-            margin-bottom: 20px; /* Add space between each row */
-        }
-        .row:last-child {
-            margin-bottom: 0; /* Remove the bottom margin for the last row */
+        .row + .row {
+            margin-top: 20px; /* Add space between rows */
         }
     </style>
 </head>
