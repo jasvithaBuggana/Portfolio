@@ -15,7 +15,7 @@ body{
       /* font-family: "Brush Script MT"; */
       /* margin-bottom: 3px; */
       font-family: "Times New Roman";
-      font-size: 50px;
+      font-size: 70px;
       font-weight: bold;
       color: #351458;
   }
@@ -43,13 +43,10 @@ body{
     background-color: #ffffff;
   }
 
-.card-body {
-    font-size: 18px; /* Increase the font size */
+ .row:not(:first-child) {
+    margin-top: 20px; /* Add space between the first and second rows */
 }
 
-.row:not(:first-child) {
-    margin-top: 2; /* Remove space between the first and second rows */
-}
 
   .Section1{
     padding: 4% 0 3%;
