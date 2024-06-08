@@ -15,7 +15,7 @@ body{
       /* font-family: "Brush Script MT"; */
       /* margin-bottom: 3px; */
       font-family: "Times New Roman";
-      font-size: 70px;
+      font-size: 80px;
       font-weight: bold;
       color: #351458;
   }
@@ -44,7 +44,7 @@ body{
   }
 
  .row:not(:first-child) {
-    margin-top: 20px; /* Add space between the first and second rows */
+    margin-top: 30px; /* Add space between the first and second rows */
 }
 
 
