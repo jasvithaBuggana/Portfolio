@@ -56,16 +56,18 @@
     </nav>
   </header>
   
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Certifications</title>
     <style>
+        .card {
+            height: 100%; /* Ensure all cards have the same height */
+        }
         .card-img-top {
-            width: 100%;
-            height: 200px; /* Adjust the height as needed */
+            height: 200px; /* Fixed height for all images */
             object-fit: cover; /* Maintain aspect ratio */
         }
     </style>
@@ -80,7 +82,9 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="Image/C++.png" alt="Card image cap">
+                        <a target="_blank" href="https://www.credly.com/badges/6ae22d46-7956-4357-8935-0ee4ea616c0a/public_url">
+                            <img class="card-img-top" src="Image/C++.png" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                             <p class="card-text certificate-text">Google Advanced Data Analytics</p>
                             <p class="certificate-text" style="color:black">-by Google </p>
@@ -89,16 +93,20 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="Image/JavaScript.png" alt="Card image cap">
+                        <a target="_blank" href="https://www.coursera.org/account/accomplishments/verify/EXF7J7UUVTNE">
+                            <img class="card-img-top" src="Image/JavaScript.png" alt="Card image cap">
+                        </a>
                         <div class="card-body">
-                            <p class="card-text certificate-text">Google Cloud Big Data and ML</p>
+                            <p class="card-text certificate-text">Google Cloud Big Data and Machine Learning Fundamentals</p>
                             <p class="certificate-text" style="color:black">-by Google Cloud</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="Image/AWS.jpg" alt="Card image cap">
+                        <a target="_blank" href="https://www.coursera.org/account/accomplishments/specialization/RVYT3WA9WA68">
+                            <img class="card-img-top" src="Image/AWS.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                             <p class="card-text certificate-text">AWS Cloud Solutions Architect</p>
                             <p class="certificate-text" style="color:black">-by Amazon Web Services</p>
@@ -107,7 +115,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="Image/AWS.jpg" alt="Card image cap">
+                        <a target="_blank" href="https://www.coursera.org/account/accomplishments/specialization/RPYH2KCW46ZX">
+                            <img class="card-img-top" src="Image/AWS.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                             <p class="card-text certificate-text">DevOps on AWS</p>
                             <p class="certificate-text" style="color:black">-by Amazon Web Service</p>
@@ -116,7 +126,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="Image/Cisco.jpg" alt="Card image cap">
+                        <a target="_blank" href="https://www.credly.com/badges/1ff9cc31-bb53-4105-9e65-10a6d0d8a468/linked_in_profile">
+                            <img class="card-img-top" src="Image/Cisco.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                             <p class="card-text certificate-text">Cisco Data Analytics Essentials</p>
                             <p class="certificate-text" style="color:black">-Cisco</p>
@@ -126,8 +138,10 @@
                 <!-- Add similar structure for other certification cards -->
             </div>
         </div>
+    </section>
+</body>
+</html>
 
-     </section>
 
 
   <footer class=footer>Made by Jasvitha Buggana</footer>
